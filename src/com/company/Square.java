@@ -1,12 +1,11 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Random;
+
 
 public class Square extends Figure{
 
-    Random r=new Random();
-    private double side=r.nextDouble()+10;
+
+    private double side;
 
 
 

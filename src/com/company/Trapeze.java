@@ -1,13 +1,12 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Random;
+
 
 public class Trapeze extends Figure {
-    Random r=new Random();
-    private double bBase=6;
-    private double tBase=4;
-    private double side =5;
+
+    private double bBase;
+    private double tBase;
+    private double side ;
 
     public double getbBase() {
         return bBase;

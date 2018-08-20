@@ -1,12 +1,11 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Random;
+
 
 public class Triangle extends Figure {
-    Random r=new Random();
-    private double firstSide=r.nextDouble()+100;
-    private double secondSide=r.nextDouble()+100;
+
+    private double firstSide;
+    private double secondSide;
 
 
 

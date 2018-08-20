@@ -1,16 +1,14 @@
 package com.company;
 
-import java.util.HashMap;
-import java.util.Random;
 
 public class Circle extends Figure {
-    Random r=new Random();
-    private double radius=r.nextDouble()+1;
+
+    private double radius;
 
     public Circle() {
     }
 
-    public Circle(int radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 

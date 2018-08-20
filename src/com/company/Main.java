@@ -22,19 +22,19 @@ public class Main {
         for (int i = 0; i < cout; i++) {
             switch (r.nextInt(4)) {
                 case 0:
-                    Figure circle = new Circle();
+                    Figure circle = new Circle(r.nextDouble()+1);
                     list.add(circle);
                     break;
                 case 1:
-                    Figure square = new Square();
+                    Figure square = new Square(r.nextDouble()+10);
                     list.add(square);
                     break;
                 case 2:
-                    Figure triangle = new Triangle();
+                    Figure triangle = new Triangle(r.nextDouble()+100,r.nextDouble()+100);
                     list.add(triangle);
                     break;
                 case 3:
-                    Figure trapeze = new Trapeze();
+                    Figure trapeze = new Trapeze(6,4,5);
                     list.add(trapeze);
                     break;
             }
